@@ -13,17 +13,16 @@ type SuperInputTextPropsType = DefaultInputPropsType & { // и + ещё проп
     spanClassName?: string
 };
 
-const SuperInputText: React.FC<SuperInputTextPropsType> = (
-    {
+const SuperInputText: React.FC<SuperInputTextPropsType> = (props) => {
+    const   {
         type, // достаём и игнорируем чтоб нельзя было задать другой тип инпута
         onChange, onChangeText,
         onKeyPress, onEnter,
         error,
         className, spanClassName,
-
         ...restProps// все остальные пропсы попадут в объект restProps
-    }
-) => {
+    } = props
+
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
         onChange // если есть пропс onChange
         && onChange(e); // то передать ему е (поскольку onChange не обязателен)

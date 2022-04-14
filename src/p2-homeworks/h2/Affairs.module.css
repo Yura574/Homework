@@ -1,3 +1,46 @@
 .someClass {
 
 }
+
+
+.name {
+    color: rgba(253, 131, 55, 0.84);
+    width: 100px;
+}
+
+.priority {
+
+}
+
+.affair {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.affairs {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 20px 0 20px 0;
+}
+.button {
+    width: 90px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.low  {
+    background-color: rgba(87,253,81,0.84);
+}
+.middle{
+    background-color: rgba(253,145,87,0.84);
+}
+.high {
+    background-color: rgba(253,56,39,0.84);
+}

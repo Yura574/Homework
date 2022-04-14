@@ -1,8 +1,10 @@
-import React, {ChangeEvent, useState} from "react";
+import React, {  useState} from "react";
 import SuperInputText from "./common/c1-SuperInputText/SuperInputText";
-import s from "./HW4.module.css";
+import classes from "./HW4.module.css";
+import classes2 from "./common/c1-SuperInputText/SuperInputText.module.css";
 import SuperButton from "./common/c2-SuperButton/SuperButton";
 import SuperCheckbox from "./common/c3-SuperCheckbox/SuperCheckbox";
+import button from './common/c2-SuperButton/SuperButton.module.css'
 
 function HW4() {
     const [text, setText] = useState<string>("");
@@ -12,6 +14,7 @@ function HW4() {
             alert("введите текст...");
         } else {
             alert(text); // если нет ошибки показать текст
+            setText('')
         }
     }
 
@@ -26,14 +29,15 @@ function HW4() {
             <hr/>
             homeworks 4
 
-            <div className={s.column}>
+            <div className={classes.column}>
                 {/*should work (должно работать)*/}
                 <SuperInputText
                     value={text}
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
-                    className={s.blue} // проверьте, рабоет ли смешивание классов
+                    className={classes2.inputClass} // проверьте, рабоет ли смешивание классов
+
                 />
 
                 {/*should work (должно работать)*/}
@@ -41,7 +45,7 @@ function HW4() {
                     red // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
                 >
-                    delete {/*// название кнопки попадёт в children*/}
+                  delete  {/*// название кнопки попадёт в children*/}
                 </SuperButton>
 
                 {/*should work (должно работать)*/}

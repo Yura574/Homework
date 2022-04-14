@@ -6,9 +6,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-left: 30px;
+  background: url('space.jpg') no-repeat;
+  background-size: 100%;
+  color: white;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.low{
+  color : green
+}
+.middle{
+  color: orange;
+}
+.high{
+  color: red;
 }

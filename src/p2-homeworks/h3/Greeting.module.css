@@ -2,9 +2,26 @@
 
 }
 
+
+.inputClass{
+    width: 400px;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+    border-radius: 0.25rem;
+    margin: 10px 10px 10px 0;
+}
 .error {
-    border: 1px solid red;
+    border: 3px solid red;
 }
 .errorSpan {
- color: red;
+    color: red;
+}
+
+.button {
+ width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
 }
