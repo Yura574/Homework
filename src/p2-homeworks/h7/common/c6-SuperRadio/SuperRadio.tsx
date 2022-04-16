@@ -16,10 +16,8 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
         ...restProps
     }
 ) => {
-    debugger
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
         // onChange, onChangeOption
-        debugger
         onChange && onChange(e)
        onChangeOption&& onChangeOption(e.currentTarget.value)
     }
@@ -35,7 +33,6 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
                 name={name}
                 className={SuperRadioClass.radio}
             />
-            <div className={SuperRadioClass.rad_design}></div>
             <div className={SuperRadioClass.rad_text}>{o}</div>
         </label>
     )) : [];

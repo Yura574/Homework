@@ -10,7 +10,7 @@ function Clock() {
         // stop
     }
     const start = () => {
-        stop();
+        // stop();
         const id: number = window.setInterval(() => {
             // setDate
         }, 1000);
