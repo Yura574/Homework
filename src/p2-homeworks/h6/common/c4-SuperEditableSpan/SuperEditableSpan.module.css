@@ -1,0 +1,12 @@
+
+
+.SuperEditableSpan{
+    display: block;
+    margin: 20px 20px 20px 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.pencil{
+    width: 30px;
+}
