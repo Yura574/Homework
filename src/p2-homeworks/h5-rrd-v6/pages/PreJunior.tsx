@@ -8,9 +8,9 @@ import HW6 from "../../h6/HW6";
 function PreJunior() {
     return (
         <div>
-            {/*<HW1/>*/}
-            {/*<HW2/>*/}
-            {/*<HW3/>*/}
+            <HW1/>
+            <HW2/>
+            <HW3/>
             <HW4/>
             {/*<HW5/>*/}
             <HW6/>
