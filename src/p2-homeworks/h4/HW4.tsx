@@ -4,7 +4,6 @@ import classes from "./HW4.module.css";
 import classes2 from "./common/c1-SuperInputText/SuperInputText.module.css";
 import SuperButton from "./common/c2-SuperButton/SuperButton";
 import SuperCheckbox from "./common/c3-SuperCheckbox/SuperCheckbox";
-import button from './common/c2-SuperButton/SuperButton.module.css'
 
 function HW4() {
     const [text, setText] = useState<string>("");

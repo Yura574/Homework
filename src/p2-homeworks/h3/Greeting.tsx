@@ -27,7 +27,6 @@ const Greeting: React.FC<GreetingPropsType> = (props) => {
                 <button className={s.button} onClick={() => addUser(name)}>add</button>
                 <span>{total}</span>
                 <div>{error && <span className={s.errorSpan}>{error}</span>}</div>
-                {/*<div>{total}</div>*/}
             </div>
             <ul>
                 {users.map(u => <li key={u.id}>{u.name}</li>)}

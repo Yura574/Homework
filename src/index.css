@@ -6,7 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-left: 30px;
-  background: url('space.jpg') no-repeat;
+  background: rgba(140, 88, 40, 0.39);
+
   background-size: 100%;
   color: white;
 
