@@ -17,7 +17,7 @@
     cursor: pointer;
     text-transform: uppercase;
     height: 25px;
-    width: 100px;
+    min-width: 100px;
     opacity: 1;
     background-color: #ffffff;
     border: 1px solid rgba(22, 76, 167, 0.6);

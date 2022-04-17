@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import {PATH} from "./Pages";
 import s from './header.module.css'
-import arrow from './../../arrow-right.svg'
+import arrow from '../../assest/svg/arrow-right.svg'
 
 
 function Header() {

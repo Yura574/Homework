@@ -1,7 +1,7 @@
 import React, {DetailedHTMLProps, InputHTMLAttributes, HTMLAttributes, useState} from "react";
 import SuperInputText from "../../../h4/common/c1-SuperInputText/SuperInputText";
 import SuperInputTextClass from './../../../h4/common/c1-SuperInputText/SuperInputText.module.css'
-import pencil from './../../../../pencel.svg'
+import pencil from '../../../../assest/svg/pencel.svg'
 import SuperEditableSpanClass from './SuperEditableSpan.module.css'
 
 // тип пропсов обычного инпута
