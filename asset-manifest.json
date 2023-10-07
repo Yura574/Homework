@@ -1,25 +1,15 @@
 {
   "files": {
-    "main.css": "/homework/static/css/main.3bd89805.chunk.css",
-    "main.js": "/homework/static/js/main.c85c7320.chunk.js",
-    "main.js.map": "/homework/static/js/main.c85c7320.chunk.js.map",
-    "runtime-main.js": "/homework/static/js/runtime-main.f38b6f31.js",
-    "runtime-main.js.map": "/homework/static/js/runtime-main.f38b6f31.js.map",
-    "static/js/2.1d871343.chunk.js": "/homework/static/js/2.1d871343.chunk.js",
-    "static/js/2.1d871343.chunk.js.map": "/homework/static/js/2.1d871343.chunk.js.map",
+    "main.css": "/homework/static/css/main.073c9b0a.css",
+    "main.js": "/homework/static/js/main.597b054c.js",
+    "static/js/787.177e23c2.chunk.js": "/homework/static/js/787.177e23c2.chunk.js",
     "index.html": "/homework/index.html",
-    "precache-manifest.da8dd9029ec0c0a5a413e2aa076409c7.js": "/homework/precache-manifest.da8dd9029ec0c0a5a413e2aa076409c7.js",
-    "service-worker.js": "/homework/service-worker.js",
-    "static/css/main.3bd89805.chunk.css.map": "/homework/static/css/main.3bd89805.chunk.css.map",
-    "static/js/2.1d871343.chunk.js.LICENSE.txt": "/homework/static/js/2.1d871343.chunk.js.LICENSE.txt",
-    "static/media/Dual-Ring-1s-200px.svg": "/homework/static/media/Dual-Ring-1s-200px.820129da.svg",
-    "static/media/arrow-right.svg": "/homework/static/media/arrow-right.789e151b.svg",
-    "static/media/pencel.svg": "/homework/static/media/pencel.3e613d2b.svg"
+    "main.073c9b0a.css.map": "/homework/static/css/main.073c9b0a.css.map",
+    "main.597b054c.js.map": "/homework/static/js/main.597b054c.js.map",
+    "787.177e23c2.chunk.js.map": "/homework/static/js/787.177e23c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f38b6f31.js",
-    "static/js/2.1d871343.chunk.js",
-    "static/css/main.3bd89805.chunk.css",
-    "static/js/main.c85c7320.chunk.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.597b054c.js"
   ]
 }
