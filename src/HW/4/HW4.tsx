@@ -32,7 +32,7 @@ export const HW4 = () => {
 
       <Input  currentText={currentText} setCurrentText={setCurrentText}/>
 
-      <Button name={'x'}  callBack={handleSave}/>
+      <Button name={'+'}  callBack={handleSave}/>
 
       <h1 style={{ marginTop: '50px' }}>СПИСОК ДЕЛ НА ДЕНЬ:</h1>
 
